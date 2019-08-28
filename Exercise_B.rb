@@ -87,7 +87,18 @@ users = {
 
 # 9. Add a pet dog to Erik called "Fluffy"
 
-users["Erik"][:pets].push(name: "Flufy", species: "dog")
-p users["Erik"][:pets]
+# users["Erik"][:pets].push(name: "Flufy", species: "dog")
+# p users["Erik"][:pets]
 
 # 10. Add another person to the users hash
+
+# users["Tommy"] = {
+#   :twitter => "tom",
+#   :lottery_numbers => [7, 2, 43, 34, 35, 10],
+#   :home_town => "Clydebank",
+#   :pets => {
+#     :name => "jojo",
+#     :species => "gorilla"
+#   }
+# }
+# p users
